@@ -1,0 +1,27 @@
+.header {
+  margin-top: 45px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(84, 84, 84, 0.7);
+  border-bottom-width: 1px;
+
+}
+
+.header__image {
+  width: 173px;
+  height: 33px;
+  margin-bottom: 41px;
+}
+
+@media screen and (max-width: 620px) {
+  .header__image {
+    display: flex;
+    margin-left: 27px;
+    width: 126px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__image {
+    margin-bottom: 32px;
+  }
+}
